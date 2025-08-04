@@ -9,7 +9,7 @@ const intakeRoutes = require('./routes/intakeRoutes');
 const app = express();
 app.use(cors({
   // origin: 'https://gpt-ai-gilt.vercel.app/form',
-  origin: 'https://gpt-ai-gilt.vercel.app',
+  origin: 'https://gpt-ai-gilt.vercel.app/form',
   
   methods: ['Get','Post'],
   credentials: true,
