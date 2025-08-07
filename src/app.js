@@ -5,6 +5,8 @@ dotenv.config();
 require('dotenv').config();
 const connectDB = require('./config/db');
 const intakeRoutes = require('./routes/intakeRoutes');
+const authRoutes = require('./routes/facebookAuthRoutes');
+app.use('/auth', authRoutes);
 
 const app = express();
 app.use(cors({

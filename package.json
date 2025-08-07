@@ -4,9 +4,12 @@
     "cors": "^2.8.5",
     "dotenv": "^17.2.0",
     "express": "^5.1.0",
+    "express-session": "^1.18.2",
     "git": "^0.1.5",
     "mongoose": "^8.16.4",
-    "openai": "^5.8.2"
+    "openai": "^5.8.2",
+    "passport": "^0.7.0",
+    "passport-facebook": "^3.0.0"
   },
   "scripts": {
     "dev": "nodemon src/app.js",
